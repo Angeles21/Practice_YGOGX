@@ -206,7 +206,7 @@ a {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	padding: 13vh;
-	justify-content: center;
+
 	justify-content: space-around;
 	background-color: #651736;
 	color: rgb(143, 129, 132);
