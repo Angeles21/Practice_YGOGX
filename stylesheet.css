@@ -1,0 +1,258 @@
+/** GENERAL STYLE **/
+
+*. *::before,
+*::after {
+	box-sizing: border-box;
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+		Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+	padding: 0;
+	margin: 0;
+	color: rgb(197, 197, 197);
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+/** STYLES FOR THE TOP SECTION **/
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.top-section {
+	min-height: 100vh;
+	background-color: #651736;
+}
+
+.header {
+	display: flex;
+	min-height: 100px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(36, 36, 36);
+}
+
+.header img {
+	width: 130px;
+	height: 75px;
+	margin-left: 5vh;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+}
+.main-menu {
+	width: 50%;
+	margin-right: 5vh;
+}
+
+/** THIS IS FOR THE BG IMAGE + TEXT **/
+
+.main {
+	min-width: 50vh;
+	display: flex;
+	align-items: center;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+.main-text {
+	margin-left: 10%;
+}
+.main img {
+	height: 500px;
+	width: 80%;
+	display: flex;
+}
+.main h1 {
+	font-size: 2em;
+	color: rgb(151, 103, 116);
+	font-weight: 50;
+	padding-bottom: 16px;
+}
+.main h2 {
+	font-size: 3em;
+	padding-bottom: 16px;
+	letter-spacing: 0.1em;
+}
+.main p {
+	font-size: 12px;
+	width: 65%;
+	color: rgb(143, 129, 132);
+	line-height: 2.5vh;
+}
+
+/** THESE ARE THE ARTICLES FOR FEATURE **/
+
+.features {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.feat-item {
+	display: flex;
+	margin: 8vh;
+}
+
+.feat-img {
+	justify-content: flex-end;
+	margin: 2vh;
+}
+.feat-text h3 {
+	font-weight: lighter;
+	letter-spacing: 5px;
+	color: rgb(151, 103, 116);
+}
+.feat-text h4 {
+	letter-spacing: 0.1em;
+}
+
+.feat-text p {
+	font-size: small;
+}
+
+/** THESE ARE THE PICTURES WITH TEXT TO THE SIDE **/
+.container-2 {
+	display: flex;
+	margin: 4vh;
+}
+.parent {
+	display: flex;
+	margin: 9vh;
+}
+.child img {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	border-radius: 10%;
+}
+.child2 img {
+	z-index: 10;
+	position: relative;
+	right: 20vh;
+	top: 5vh;
+	border-radius: 10%;
+}
+
+.gallery-text {
+	min-width: 50vh;
+	margin-top: 5%;
+	align-items: center;
+}
+.gallery-text h2 {
+	font-size: 3em;
+	padding-bottom: 16px;
+	letter-spacing: 0.1em;
+}
+.gallery-text p {
+	font-size: 12px;
+	width: 65%;
+	color: rgb(143, 129, 132);
+	line-height: 2.5vh;
+}
+
+/** THIS IS THE TEXT WITH THE IMAGE TO THE RIGHT **/
+.container-3 {
+	display: flex;
+	background-color: rgb(36, 36, 36);
+	padding: 8vh;
+	justify-content: center;
+}
+.child3 {
+	margin: 5vh;
+}
+.child3 h2 {
+	font-size: 3em;
+	padding-top: 5vh;
+	padding-bottom: 16px;
+	letter-spacing: 0.1em;
+}
+.child3 p {
+	font-size: 12px;
+	width: 65%;
+	color: rgb(143, 129, 132);
+	line-height: 2.5vh;
+}
+.child4 {
+	float: right;
+}
+.child4 img {
+	border-radius: 10%;
+}
+
+/**THIS IS THE BIG STRIPE **/
+
+.elements {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	padding: 13vh;
+	justify-content: center;
+	justify-content: space-around;
+	background-color: #651736;
+	color: rgb(143, 129, 132);
+}
+.element-sub h4 {
+	font-size: 3em;
+}
+.element-sub span {
+	font-weight: lighter;
+}
+
+/** THIS IS THE FOOTER **/
+
+.footer {
+	display: flex;
+	justify-content: center;
+}
+.baby-footer {
+	margin: 10vh;
+}
+.contact-text {
+	border-radius: 20px;
+	height: auto;
+	width: 100vh;
+	background-color: rgb(38, 34, 35);
+}
+.contact-text h3 {
+	color: rgb(208, 178, 185);
+	margin-left: 10%;
+	margin-top: 3%;
+}
+.contact-text h4 {
+	color: rgb(208, 178, 185);
+	margin-left: 10%;
+	font-weight: 20;
+	padding-bottom: 5vh;
+}
+.contact-img {
+	float: right;
+	padding: 1vh;
+	margin-right: 10%;
+}
+.contact-img img {
+	border-radius: 10%;
+}
+
+hr {
+	width: 80%;
+}
